@@ -115,7 +115,7 @@ const data = [
 
 
 data.forEach(data => {
-  console.log('creating article', data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph)
+  console.log('creating articles', data.title, data.date, data.firstParagraph, data.secondParagraph, data.thirdParagraph)
 })
 
 function createArticle(title, date, firstParagraph, secondParagraph, thirdParagraph) {
